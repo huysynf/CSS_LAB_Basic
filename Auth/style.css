@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    /* padding: 0; */
+    /* margin: 0; */
+  }
+  
+  /* Header */
+  #header {
+    display: flex;
+  }
+  
+  .header-brand__title {
+    font-size: 3em;
+    cursor: pointer;
+    color: rgba(235, 28, 30, 0.5);
+    font-weight: bold;
+  }
+  
+  .header-menu li {
+    list-style: none;
+    display: inline-block;
+    min-width: 100px;
+  }
+  
+  .header-menu li a {
+    text-decoration: none;
+    color: rgb(109, 103, 103);
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  /* End header */
+  
+  /* main */
+  #main {
+    background: rgba(20, 30, 100, 0.1);
+  }
+  .container {
+    padding: 0 10%;
+  }
+  .col-1 {
+    width: 10%;
+  }
+  .col-2 {
+    width: 20%;
+  }
+  
+  .col-5 {
+    width: 50%;
+  }
+  .col-8 {
+    width: 80%;
+  }
+  .col-9 {
+    width: 90%;
+  }
+  
+  .form-group {
+    padding: 20px 0;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(109, 103, 103);
+    outline: none;
+  }
+  
+  .form-control__boder {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  .form-control__boder:focus {
+    border-color: turquoise;
+  }
+  
+  .btn {
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: #aaa;
+  }
+  .btn-warning {
+    background-color: orange;
+  }
+  .btn-pink {
+    background: rgba(235, 28, 30, 0.5);
+  }
+  
+  #footer {
+    background: #aaa;
+    display: flex;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .font-weigth-bold {
+    font-weight: bold;
+  }
+  /* end main */
+  
