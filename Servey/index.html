@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Servey</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Posts</a></li>
+                    <li><a href="">Serveys</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h3>Product Servey</h3>
+                <p>This servey for customer product reviews</p>
+            </div>
+            <form action="">
+                <div>
+                    <div>
+                        <label><b>What is your age range?</b></label> <br />
+                        <select name="age_range" style="width: 500px">
+                            <option value="1">0-18</option>
+                            <option value="2">19-24</option>
+                            <option value="3">25-35</option>
+                            <option value="4">36-50</option>
+                            <option value="5">50+</option>
+                        </select>
+                        <br />
+                    </div>
+                    <div>
+                        <label><b>What is your yearly income range? </b></label
+                        ><br />
+                        <select style="width: 500px" name="yearly_income">
+                            <option value="1">$0-$25,000</option>
+                            <option value="2">$25,001-$50,000</option>
+                            <option value="3">$50,001-$100,000</option>
+                            <option value="4">$100,000+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label><b>Gender Identity</b></label
+                        ><br />
+                        <input name="male" value="1" type="radio" checked />Male
+                        <br />
+                        <input name="female" value="2" type="radio" />Female
+                        <br />
+                        <input
+                            name="nonbinary"
+                            value="3"
+                            type="radio"
+                        />Nonbinary <br />
+                        <input name="other" value="4" type="radio" />Other
+                        <br />
+                        <input name="other" value="" type="text" /><br />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label
+                            ><b
+                                >Which of the following products have your
+                                purchased in the last 2 months. Please check all
+                                that apply.</b
+                            ></label
+                        ><br />
+                        <input
+                            name="Product1"
+                            value="1"
+                            type="checkbox"
+                            checked
+                        />Product 1 <br />
+                        <input
+                            name="Product2"
+                            value="2"
+                            type="checkbox"
+                        />Product 2 <br />
+                        <input
+                            name="Product3"
+                            value="3"
+                            type="checkbox"
+                        />Product 3 <br />
+                    </div>
+                    <div>
+                        <label
+                            ><b
+                                >How often would you use our new product?
+                            </b></label
+                        ><br />
+                        <input name="daily" value="1" type="radio" />Daily
+                        <br />
+                        <input name="weekly" value="2" type="radio" />Weekly
+                        <br />
+                        <input name="monthly" value="3" type="radio" />Monthly
+                        <br />
+                    </div>
+                    <div>
+                        <label
+                            ><b
+                                >What would you pay for the new product?</b
+                            ></label
+                        ><br />
+                        <label>$</label>
+                        <input
+                            name="dollars"
+                            value=""
+                            type="text"
+                            style="width: 100px"
+                        />
+                        <label>.</label>
+                        <input
+                            name="cents"
+                            value=""
+                            type="text"
+                            style="width: 50px"
+                        /><br />
+                        &emsp;<label>Dollars</label>
+                        &emsp;&emsp;&emsp;&emsp;<label>Cents</label><br />
+                        <label
+                            ><b
+                                >What features would you like to see in the new
+                                product.</b
+                            ></label
+                        ><br />
+                        <input
+                            name="features"
+                            value=""
+                            type="text"
+                            style="
+                                width: 900px;
+                                height: 300px;
+                                border: solid 1px;
+                            "
+                        />
+                    </div>
+                </div>
+                <div>
+                    <label
+                        >Please rate your level of agreement with the following
+                        statements.</label
+                    ><br />
+                    <table style="border: solid 1px; width: 100%">
+                        <div>
+                            <!--Phần heard của table-->
+                            <tr>
+                                <th></th>
+                                <th>Strongly Disagree</th>
+                                <th>Disagree</th>
+                                <th>Agree</th>
+                                <th>Strongly Agree</th>
+                            </tr>
+                        </div>
+                        <div>
+                            <!--Phần nội dung của table-->
+                            <tr>
+                                <td><b>Our products are priced fairly.</b></td>
+                                <td class="a">
+                                    <input
+                                        name="priced"
+                                        value="1"
+                                        type="radio"
+                                    /><br /><label>&ensp;1</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="priced"
+                                        value="2"
+                                        type="radio"
+                                    /><br /><label>&ensp;2</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="priced"
+                                        value="3"
+                                        type="radio"
+                                    /><br /><label>&ensp;3</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="priced"
+                                        value="4"
+                                        type="radio"
+                                    /><br /><label>&ensp;4</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Our products are high quality.</b></td>
+                                <td class="a">
+                                    <input
+                                        name="quality"
+                                        value="1"
+                                        type="radio"
+                                    /><br /><label>&ensp;1</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="quality"
+                                        value="2"
+                                        type="radio"
+                                    /><br /><label>&ensp;2</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="quality"
+                                        value="3"
+                                        type="radio"
+                                    /><br /><label>&ensp;3</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="quality"
+                                        value="4"
+                                        type="radio"
+                                    /><br /><label>&ensp;4</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b
+                                        >You would recommend our product to a
+                                        friend or coworker.</b
+                                    >
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="recommend"
+                                        value="1"
+                                        type="radio"
+                                    /><br /><label>&ensp;1</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="recommend"
+                                        value="2"
+                                        type="radio"
+                                    /><br /><label>&ensp;2</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="recommend"
+                                        value="3"
+                                        type="radio"
+                                    /><br /><label>&ensp;3</label>
+                                </td>
+                                <td class="a">
+                                    <input
+                                        name="recommend"
+                                        value="4"
+                                        type="radio"
+                                    /><br /><label>&ensp;4</label>
+                                </td>
+                            </tr>
+                        </div>
+                    </table>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div>
+                <p>Coppy Right by &#64; <a>Huyhq</a></p>
+            </div>
+            <div>
+                <p>Connect Us With</p>
+                <nav>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Google</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Linkedin</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
